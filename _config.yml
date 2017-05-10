@@ -92,4 +92,5 @@ exclude:
   
 gems:
   - jemoji
+  - kramdown
   
