@@ -23,12 +23,3 @@ I keep myself up to date regularly on the latest developments in the field of da
 This blog will showcase some of the analyses I have been doing with different data sets (all freely available), sometime for my projects and sometime for fun. I will also host materials for learners.
 
 ---
-
-## Contact me:
-
-![]({{ site.url }}/images/email.jpg)
-![]({{ site.url }}/images/linkedin.jpg)
-
-
-- [Email](mailto:himanshusin@gmail.com)
-- [Linkedin](https://www.linkedin.com/in/himanshu-sinha-7a8a5311/)
