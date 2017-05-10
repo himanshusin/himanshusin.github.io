@@ -25,5 +25,10 @@ This blog will showcase some of the analyses I have been doing with different da
 ---
 
 ## Contact me:
+
+![]({{ site.url }}/images/email.jpg)
+![]({{ site.url }}/images/linkedin.jpg)
+
+
 - [Email](mailto:himanshusin@gmail.com)
 - [Linkedin](https://www.linkedin.com/in/himanshu-sinha-7a8a5311/)
