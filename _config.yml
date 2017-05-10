@@ -1,7 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
-markdown: kramdown
+#markdown: kramdown
 #kramdown:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 
@@ -61,7 +61,7 @@ baseurl:
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.2.0
+version: v3.4.3
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
