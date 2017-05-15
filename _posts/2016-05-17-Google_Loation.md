@@ -8,7 +8,8 @@ author: Himanshu Sinha
 image: C:/GITHUB/himanshusin.github.io/blog_image/2014_BLOGS/gmap_1.png
 ---
 
-![](C:/GITHUB/himanshusin.github.io/blog_image/2014_BLOGS/gmap_1.png)
+![](/blog_image/2014_BLOGS/b1_image.png)
+
 
 Its no secret that Google has been watching us  all the time. I like Google though, because they allow us to access quite a lot of data that they collected on us.
 
@@ -84,10 +85,10 @@ max(loc$time)
 
 Great, so it has my recent data too.. 
 
-##And how are the datapoints distributed over days, months and years?
+## And how are the datapoints distributed over days, months and years?
 
+Let's calculate the number of data points per day, month and year
 
-### Calculate the number of data points per day, month and year
 
 ``` r
 library(lubridate)
@@ -103,7 +104,7 @@ points_p_year <- data.frame(table(loc$year), group = "year")
 
 ```
 
-###How many days were recorded?
+### How many days were recorded?
 ``` r
 nrow(points_p_day)
 ```
@@ -111,7 +112,7 @@ nrow(points_p_day)
 [1] 249
 ```
 
-###How many month were recorded?
+### How many month were recorded?
 ``` r
 nrow(points_p_month)
 ```
@@ -126,8 +127,7 @@ nrow(points_p_year)
 [1] 4
 ```
 
-### Let's make some fancy graph through plotly
-
+## Let's make some fancy graph through plotly
 
 ``` r
 points <- rbind(points_p_day[, -1], points_p_month[, -1], points_p_year[, -1])
