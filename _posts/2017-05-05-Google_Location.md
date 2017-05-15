@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where have you been last summer ??"
-date: 2015-05-17
+date: 2017-05-09
 categories: maps
 tags: ggmap mapbox plotly
 author: Himanshu Sinha
@@ -254,6 +254,6 @@ If you click on the image , you can see that median of velocity is not  very inf
 The file also contain  information about your **activity**  and it is based on distance and velocity . I  have  done seperate analysis to estabablish that activity is guessed from lon, lat and velocity information. You can  do it too.
 
 
-Happy reading & experimenting !!
+**Happy reading & experimenting !!**
 
 
