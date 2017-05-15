@@ -183,7 +183,7 @@ loc_map_1
 ## Let's save the  plot as HTML
 saveWidget(loc_map_1, file="ch2.html")
 ```
-<a href="/blog_image/2015_BLOGS/ch2.html">![](/blog_image/2015_BLOGS/p2.png)]</a>
+<a href="/blog_image/2015_BLOGS/ch2.html">![](/blog_image/2015_BLOGS/p2.png)</a>
 
 Click on the above image to see the zoomable  world map.
 If you explore the chart , you can see that  recently I have spent most of my time in Chicago, US  and New Delhi,India.
@@ -193,6 +193,7 @@ If you explore the chart , you can see that  recently I have spent most of my ti
 
 Let's first see, what velocity I have been moving over the places .
 ``` r
+## Making velocity as category
 velocity_1<- loc[!is.na(loc$velocity) ,]
 velocity_1$velocity_category<- ifelse(velocity_2$velocity >=0 & velocity_2$velocity <=10, "Slow",
                                 ifelse(velocity_2$velocity >=11 & velocity_2$velocity <=20, "Medium","Fast")
