@@ -19,14 +19,15 @@ The data Google provides you for download is a .json file and can be loaded with
 
  Google data comes in **.json** format and we can use package [jsonlite()](https://cran.r-project.org/web/packages/jsonlite/index.html)  to load and explore the data.
  
-I am going to use [plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/) to get clickable map.
-
-**Step -1 : **In order to use their API's please make sure you have made accounts on both plot [plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/).
+I am going to use [Plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/) to get clickable map and followed the steps as suugested below to set them up.
 
 
-**Step -2 : **To create mapbox maps with Plotly, you'll need a Mapbox account and a [Mapbox Access Token](https://www.mapbox.com/studio/account/tokens/) that you can add to your [Plotly](https://plot.ly/settings/mapbox) Settings. 
+**Step -1 : ** In order to use their API's please make sure you have made accounts on both plot [Plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/).
 
-**Step -3 : **Now set your **Mapbox Access Token** [(get here)](https://www.mapbox.com/studio/account/tokens/) and **Plotly API Key** [(get here)](https://plot.ly/settings/api).
+
+**Step -2 : ** To create mapbox maps with Plotly, you'll need a Mapbox account and a [Mapbox Access Token](https://www.mapbox.com/studio/account/tokens/) that you can add to your [Plotly](https://plot.ly/settings/mapbox) Settings. 
+
+**Step -3 : ** Now set your **Mapbox Access Token** [(get here)](https://www.mapbox.com/studio/account/tokens/) and **Plotly API Key** [(get here)](https://plot.ly/settings/api).
 
 
 Loading the relevant libraries :
@@ -39,9 +40,9 @@ x <- fromJSON("LocationHistory.json")
 Passing tokens  to use Plotly  and Mapbox.
 
 ``` r
-Sys.setenv('MAPBOX_TOKEN' = pk.eyJ1IjoiaGltYW5zaHVzaW4iLCJhIjoiY2oya3UxdjJ3MDAzcjJxcXdkNGE2ZjAyYSJ9.SjOsw-eyFR7OMEUhdFnyxg)
-Sys.setenv("plotly_username"="himanshusin")
-Sys.setenv("plotly_api_key"="NUL3vOQwD8eCPIKCuzg4")
+Sys.setenv('MAPBOX_TOKEN' = <YOUR MAPBOX TOKEN>)
+Sys.setenv("plotly_username"=<USER NAME FOR PLOTLY >)
+Sys.setenv("plotly_api_key"=<API KEY FOR PLOTLY>)
 ```
 
 If you've no experience in API's don't worry !! In simple words , above codes let  R , Plotly & Mapbox talk to each other.
