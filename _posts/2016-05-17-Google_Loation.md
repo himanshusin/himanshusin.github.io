@@ -156,8 +156,6 @@ q
 saveWidget(q, file="ch1.html")
 ```
 
-/blog_image/2015_BLOGS/p1.png
-
 <a href="/blog_image/2015_BLOGS/ch1.html" >![](/blog_image/2015_BLOGS/p1.png)]</a>
 
 Click on the above image to seet he clickable  and drillable  chart.
@@ -185,16 +183,15 @@ loc_map_1
 ## Let's save the  plot as HTML
 saveWidget(loc_map_1, file="ch2.html")
 ```
-<a href="ch2.html" rel="some text">![](plot_1.png)]</a>
+<a href="/blog_image/2015_BLOGS/ch2.html">![](p2.png)]</a>
 
 Click on the above image to see the zoomable  world map.
-If you explore the chart , you can see that  I have spent most of my time in New Delhi,India and Chicago,US.
+If you explore the chart , you can see that  recently I have spent most of my time in Chicago, US  and New Delhi,India.
 
-# Velocity
 
-## Google also tracks the velocity. 
+## Google also tracks the velocity of my movement. 
 
-Let's first see, what what velocity I have been moving over the places .
+Let's first see, what velocity I have been moving over the places .
 ``` r
 velocity_1<- loc[!is.na(loc$velocity) ,]
 velocity_1$velocity_category<- ifelse(velocity_2$velocity >=0 & velocity_2$velocity <=10, "Slow",
