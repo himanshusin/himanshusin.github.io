@@ -8,7 +8,7 @@ author: Himanshu Sinha
 image: C:/GITHUB/himanshusin.github.io/blog_image/2014_BLOGS/gmap_1.png
 ---
 
-![](/blog_image/2014_BLOGS/b1_image.png)
+![](/blog_image/2015_BLOGS/banner_2.png)
 
 
 Its no secret that Google has been watching us  all the time. I like Google though, because they allow us to access quite a lot of data that they collected on us.
@@ -21,13 +21,12 @@ The data Google provides you for download is a .json file and can be loaded with
  
 I am going to use [Plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/) to get clickable map and followed the steps as suugested below to set them up.
 
+Step -1 : In order to use their API's please make sure you have made accounts on both plot [Plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/).
 
-**Step -1 : ** In order to use their API's please make sure you have made accounts on both plot [Plotly](https://plot.ly/) and [Mapbox](https://www.mapbox.com/).
 
+Step -2 : To create mapbox maps with Plotly, you'll need a Mapbox account and a [Mapbox Access Token](https://www.mapbox.com/studio/account/tokens/) that you can add to your [Plotly](https://plot.ly/settings/mapbox) Settings. 
 
-**Step -2 : ** To create mapbox maps with Plotly, you'll need a Mapbox account and a [Mapbox Access Token](https://www.mapbox.com/studio/account/tokens/) that you can add to your [Plotly](https://plot.ly/settings/mapbox) Settings. 
-
-**Step -3 : ** Now set your **Mapbox Access Token** [(get here)](https://www.mapbox.com/studio/account/tokens/) and **Plotly API Key** [(get here)](https://plot.ly/settings/api).
+Step -3 : Now set your Mapbox Access Token [(get here)](https://www.mapbox.com/studio/account/tokens/) and **Plotly API Key** [(get here)](https://plot.ly/settings/api).
 
 
 Loading the relevant libraries :
@@ -63,9 +62,9 @@ loc$time = as.POSIXct(as.numeric(x$locations$timestampMs)/1000, origin = "1970-0
 loc$lat = loc$latitudeE7 / 1e7
 loc$lon = loc$longitudeE7 / 1e7
 ```
-###Let's explore the data now :
+## Let's see, since when google is watching you  :smile:
 
-Since when google is watching you  :smile:
+
 ``` r
 min(loc$time)
 ```
@@ -157,7 +156,9 @@ q
 saveWidget(q, file="ch1.html")
 ```
 
-<a href="ch1.html" rel="some text">![](plot_1.png)]</a>
+/blog_image/2015_BLOGS/p1.png
+
+<a href="/blog_image/2015_BLOGS/ch1.html" >![](/blog_image/2015_BLOGS/p1.png)]</a>
 
 Click on the above image to seet he clickable  and drillable  chart.
 If you explore the chart , you can see that , Google colllected nearly **~430** points on me per day.
