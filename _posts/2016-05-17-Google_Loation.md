@@ -5,7 +5,7 @@ date: 2015-05-17
 categories: maps
 tags: ggmap mapbox plotly
 author: Himanshu Sinha
-image: C:/GITHUB/himanshusin.github.io/blog_image/2014_BLOGS/gmap_1.png
+image: /blog_image/2015_BLOGS/p3.png
 ---
 
 
