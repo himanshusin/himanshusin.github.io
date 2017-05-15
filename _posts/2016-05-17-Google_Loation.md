@@ -9,7 +9,7 @@ image: C:/GITHUB/himanshusin.github.io/blog_image/2014_BLOGS/gmap_1.png
 ---
 
 
-<a href="https://himanshusin.github.io/Google_Loation/">![](/blog_image/2015_BLOGS/p3.png)]</a>
+<a href="https://himanshusin.github.io/Google_Loation/">![](/blog_image/2015_BLOGS/p3.png)</a>
 
 Its no secret that Google has been watching us  all the time. I like Google though, because they allow us to access quite a lot of data that they collected on us.
 
@@ -156,7 +156,7 @@ q
 saveWidget(q, file="ch1.html")
 ```
 
-<a href="/blog_image/2015_BLOGS/ch1.html" >![](/blog_image/2015_BLOGS/p1.png)]</a>
+<a href="/blog_image/2015_BLOGS/ch1.html" >![](/blog_image/2015_BLOGS/p1.png)</a>
 
 Click on the above image to seet he clickable  and drillable  chart.
 If you explore the chart , you can see that , Google colllected nearly **~430** points on me per day.
@@ -218,7 +218,7 @@ loc_map_2
 ## Let's save the  plot as HTML
 saveWidget(loc_map_2, file="ch3.html")
 ```
-<a href="/blog_image/2015_BLOGS/ch3.html">![](/blog_image/2015_BLOGS/p3.png)]</a>
+<a href="/blog_image/2015_BLOGS/ch3.html">![](/blog_image/2015_BLOGS/p3.png)</a>
 
 As you can see in the map, it a mix  of velocity. Sometime very fast as 55 and sometime very slow 0 ( may be still that time). I relatively move faster when out of city and town area.
 
@@ -245,7 +245,7 @@ w
 ## Let's save the  plot as HTML
 saveWidget(w, file="ch4.html")
 ```
-<a href="/blog_image/2015_BLOGS/ch4.html">![](/blog_image/2015_BLOGS/p4.png)]</a>
+<a href="/blog_image/2015_BLOGS/ch4.html">![](/blog_image/2015_BLOGS/p4.png)</a>
 If you click on the image , you can see that median of velocity is not  very informative because the points collected per year are not consistent. 
 
 
@@ -254,6 +254,6 @@ If you click on the image , you can see that median of velocity is not  very inf
 The file also contain  information about your **activity**  and it is based on distance and velocity . I  have  done seperate analysis to estabablish that activity is guessed from lon, lat and velocity information. You can  do it too.
 
 
-Happy reading !!
+Happy reading & experimenting !!
 
 
