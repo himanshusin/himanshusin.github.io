@@ -217,16 +217,15 @@ loc_map_2
 
 ## Let's save the  plot as HTML
 saveWidget(loc_map_2, file="ch3.html")
-
 ```
+<a href="/blog_image/2015_BLOGS/ch3.html">![](/blog_image/2015_BLOGS/p3.png)]</a>
 
 As you can see in the map, it a mix  of velocity. Sometime very fast as 55 and sometime very slow 0 ( may be still that time). I relatively move faster when out of city and town area.
 
 
-# Average velocity per year
+## Average velocity per year
 
-
-I jog regularly and I wanted to see if  I  google data tell me something about my speed of job over  the years.
+I jog regularly and I wanted to see if  I google data tells me anything about my speed of jogs over  the years.
 
 ``` r
 velocity_2 <- velocity_1 [, c("velocity", "year")]
@@ -246,11 +245,15 @@ w
 ## Let's save the  plot as HTML
 saveWidget(w, file="ch4.html")
 ```
-
+<a href="/blog_image/2015_BLOGS/ch4.html">![](/blog_image/2015_BLOGS/p4.png)]</a>
 The median of velocity is not  very informative because the points collected per year are not consistent. 
 
 
 ## Other analyses 
 
-The file also contain  information about your activity  and it is based on distance and velocity . I  have  done seperate analysis to estabablish that activity is guessed from lon, lat and velocity information. You can  do it too.
+The file also contain  information about your **activity**  and it is based on distance and velocity . I  have  done seperate analysis to estabablish that activity is guessed from lon, lat and velocity information. You can  do it too.
+
+
+Happy reading !!
+
 
