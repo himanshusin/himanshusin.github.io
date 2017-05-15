@@ -9,7 +9,7 @@ image: C:/GITHUB/himanshusin.github.io/blog_image/2014_BLOGS/gmap_1.png
 ---
 
 
-<a href="/_posts/2016-05-17-Google_Loation.md">![](/blog_image/2015_BLOGS/p3.png)]</a>
+<a href="https://himanshusin.github.io/Google_Loation/">![](/blog_image/2015_BLOGS/p3.png)]</a>
 
 Its no secret that Google has been watching us  all the time. I like Google though, because they allow us to access quite a lot of data that they collected on us.
 
