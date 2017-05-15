@@ -246,7 +246,7 @@ w
 saveWidget(w, file="ch4.html")
 ```
 <a href="/blog_image/2015_BLOGS/ch4.html">![](/blog_image/2015_BLOGS/p4.png)]</a>
-The median of velocity is not  very informative because the points collected per year are not consistent. 
+If you click on the image , you can see that median of velocity is not  very informative because the points collected per year are not consistent. 
 
 
 ## Other analyses 
