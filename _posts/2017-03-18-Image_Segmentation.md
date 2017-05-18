@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "Image segmentation in R "
+title: " Image segmentation in R  "
 date: 2017-03-21
-categories: maps
-tags: EBImage Imager
+categories: plot images
+tags: image segmentation clustering
 author: Himanshu Sinha
 image: /blog_image/2015_BLOGS/2/plot_2.png
 ---
 
 
-<a href="https://himanshusin.github.io/Image_Grouping/">![](/blog_image/2015_BLOGS/2/plot_2.png)</a>
-
+<a href="https://himanshusin.github.io/Image_Segmentation/">![](/blog_image/2015_BLOGS/2/plot_2.png)</a>
 
 
 Last few days I have been working on a images classification challenge and I have been reading papers on density based clustering. 
@@ -26,13 +25,13 @@ Density-based clustering algorithm  finds a number of clusters starting from the
 In simple words, K-means just looks for the proximity of  other points whereas Density-Based Spatial Clustering of Applications with Noise (DBSCAN) also takes care density and noise in a cluster before assigning a cluster .
 
 **The advantages of DBSCAN are:**
+``` r
 - Unlike K-means, DBSCAN does not require the user to specify the number of clusters to be generated
 - DBSCAN can find any shape of clusters. The cluster doesn’t have to be circular.
 - DBSCAN can identify outliers
+```
 
-
-As  image is  data in matrix shape and density of pixel have to be compared in order to find closer one  so ,  I have chosen DBSCAN over k- means to cluster the pictures.
-
+As  image is  data in matrix shape and density of pixels have to be compared in order to find closer one  so ,  I have chosen DBSCAN over k- means to cluster the pictures.
 
 I have used the NOAA  data for fishes published for a fish recognition competetion. It's public data and available [here](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/data).
 
@@ -41,7 +40,7 @@ There are 3777 pictures and I wanted to identfy if some of these pictures are si
 The motivation for me was, if I can  group picture by their similarity , then this group identifier can give me some boost on leaderboard.It so happened that I coudn't submit my final score  because of some last minutes changes in my schedule.
 
 
-But none the less , it gave me idea to apply this alorithm to group the similar pictures.
+But none the less , it gave me idea to apply this algorithm to group the similar pictures.
 
 Let's save the pictures  to a local directory  and begin with this.
 
