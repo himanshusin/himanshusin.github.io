@@ -199,9 +199,10 @@ plot(load.image(paste0(folderpath,evaluation_data_2[i,2])), main = paste0("Clus#
 }
 ```
 
-![](/blog_image/2015_BLOGS/2/Segment_1.png)</a>
-![](/blog_image/2015_BLOGS/2/Segment_2.png)</a>
-![](/blog_image/2015_BLOGS/2/Segment_3.png)</a>
+![](/blog_image/2015_BLOGS/2/Segment_1.png)
+![](/blog_image/2015_BLOGS/2/Segment_2.png)
+![](/blog_image/2015_BLOGS/2/Segment_3.png)
+
 
 
 So, its working well. The model is able to club similar images :smile: .
