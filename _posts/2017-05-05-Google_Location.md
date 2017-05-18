@@ -5,11 +5,11 @@ date: 2017-05-09
 categories: maps
 tags: ggmap mapbox plotly
 author: Himanshu Sinha
-image: /blog_image/2015_BLOGS/p3.png
+image: /blog_image/2015_BLOGS/1/p3.png
 ---
 
 
-<a href="https://himanshusin.github.io/Google_Location/">![](/blog_image/2015_BLOGS/p3.png)</a>
+<a href="https://himanshusin.github.io/Google_Location/">![](/blog_image/2015_BLOGS/1/p3.png)</a>
 
 Its no secret that Google has been watching us  all the time. I like Google though, because they allow us to access quite a lot of data that they collected on us.
 
@@ -156,7 +156,7 @@ q
 saveWidget(q, file="ch1.html")
 ```
 
-<a href="/blog_image/2015_BLOGS/ch1.html" >![](/blog_image/2015_BLOGS/p1.png)</a>
+<a href="/blog_image/2015_BLOGS/1/ch1.html" >![](/blog_image/2015_BLOGS/1/p1.png)</a>
 
 Click on the above image to seet he clickable  and drillable  chart.
 If you explore the chart , you can see that , Google colllected nearly **~430** points on me per day.
@@ -183,7 +183,7 @@ loc_map_1
 ## Let's save the  plot as HTML
 saveWidget(loc_map_1, file="ch2.html")
 ```
-<a href="/blog_image/2015_BLOGS/ch2.html">![](/blog_image/2015_BLOGS/p2.png)</a>
+<a href="/blog_image/2015_BLOGS/1/ch2.html">![](/blog_image/2015_BLOGS/1/p2.png)</a>
 
 Click on the above image to see the zoomable  world map.
 If you explore the chart , you can see that  recently I have spent most of my time in Chicago, US  and New Delhi,India.
@@ -219,7 +219,7 @@ loc_map_2
 ## Let's save the  plot as HTML
 saveWidget(loc_map_2, file="ch3.html")
 ```
-<a href="/blog_image/2015_BLOGS/ch3.html">![](/blog_image/2015_BLOGS/p3.png)</a>
+<a href="/blog_image/2015_BLOGS/1/ch3.html">![](/blog_image/2015_BLOGS/1/p3.png)</a>
 
 As you can see in the map, it a mix  of velocity. Sometime very fast as 55 and sometime very slow 0 ( may be still that time). I relatively move faster when out of city and town area.
 
@@ -246,7 +246,7 @@ w
 ## Let's save the  plot as HTML
 saveWidget(w, file="ch4.html")
 ```
-<a href="/blog_image/2015_BLOGS/ch4.html">![](/blog_image/2015_BLOGS/p4.png)</a>
+<a href="/blog_image/2015_BLOGS/1/ch4.html">![](/blog_image/2015_BLOGS/1/p4.png)</a>
 If you click on the image , you can see that median of velocity is not  very informative because the points collected per year are not consistent. 
 
 
