@@ -16,7 +16,7 @@ It's amazing to me what can be learned from analyzing, visualizing, making predi
 
 I am using R every day at work and the thematic scope there is of course analytics centric with a lot of experimentation of machine learning and statistics. 
 
-I have very often benefited from other people's published work and and it has infused ideas for sharing some portion of my  work, thus this **blogs**. 
+I have very often benefited from other people's published work and and it has infused ideas for sharing some portion of my  work, thus these **blogs**. 
 
 I hope that sharing my own analyses will help others. 
 
