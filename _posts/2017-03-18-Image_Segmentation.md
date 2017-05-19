@@ -9,7 +9,7 @@ image: /blog_image/2015_BLOGS/2/plot_2.png
 ---
 
 
-<a href="https://himanshusin.github.io/Image_Segmentation/">![](/blog_image/2015_BLOGS/2/plot_2.png)</a>
+<a href="https://himanshusin.github.io/Image_Segmentation/">![](/blog_image/2015_BLOGS/2/banner_1.png)</a>
 
 
 Last few days I have been working on a images classification challenge and I have been reading papers on density based clustering. 
