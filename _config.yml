@@ -6,7 +6,7 @@
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 
 # Name of your site (displayed in the header)
-name: Himanshu's Playgroud
+name: Himanshu's Playground
 
 # Short bio or description (displayed in the header)
 description: Exploring and playing with data in R
