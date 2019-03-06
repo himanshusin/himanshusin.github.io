@@ -20,9 +20,7 @@ I have very often benefited from other people's published work and and it has in
 
 I hope that sharing my own analyses will help others. 
 
-My tool of choice for data analysis so far has been **R** (and sometime SAS and Python too).
-
-I am also creating a R package that is aimed to simulate activity_cost for a set of actions, leveraging optim(),arules() and ggplot2(). Once ready , it is expected to be helpful to propose **"NEXT BEST ACTION"**  and ventures into **"PRESCRIPTIVE ANALYTICS"**. I hope I'll make it available via CRAN and Github, very soon.
+My tool of choice for data analysis so far has been **R** and **Python** .
 
 I try and keep myself up to date by taking up MOOCS/Certifications and competing in Kaggle.
 
