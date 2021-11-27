@@ -8,7 +8,7 @@ permalink: /about/
 
 ![]({{ site.url }}/images/selfie2.jpg){:style="float: left;margin-right: 7px;margin-top: 7px; margin-bottom: 7px; margin-left: 7px; width: 200px"}
 
-I'm Himanshu and I'm a data scientist with [Infogix Inc.](http://infogix.com) currently working on projects that are aimed to  reduce customer fraud, reduce churn, detect anomaly , and identify best customer to be onboarded. I majorly work with telcom orders and insurance claims data.
+I'm Himanshu and I'm a data scientist,  currently working on projects that are aimed to  reduce customer fraud, reduce churn, detect anomaly , and identify best customer to be onboarded. 
 
 I use machine learning to solve business problem and I enjoy playing around with data of all sorts. 
 
@@ -20,7 +20,7 @@ I have very often benefited from other people's published work and and it has in
 
 I hope that sharing my own analyses will help others. 
 
-My tool of choice for data analysis so far has been **R** and **Python** .
+My tool of choice for data analysis so far has been  **Python**  and **R** .
 
 I try and keep myself up to date by taking up MOOCS/Certifications and competing in Kaggle.
 
