@@ -20,7 +20,7 @@ I have very often benefited from other people's published work and and it has in
 
 I hope that sharing my own analyses will help others. 
 
-My tool of choice for data analysis so far has been  **Python**  and **R** .
+My tool of choice for data analysis so far has been  **Python** and **R** .
 
 I try and keep myself up to date by taking up MOOCS/Certifications and competing in Kaggle.
 
