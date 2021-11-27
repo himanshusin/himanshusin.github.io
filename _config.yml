@@ -99,3 +99,5 @@ gems:
   - jemoji
   - kramdown
   
+
+theme: jekyll-theme-dinky
