@@ -8,13 +8,11 @@ permalink: /about/
 
 ![]({{ site.url }}/images/selfie2.jpg){:style="float: left;margin-right: 7px;margin-top: 7px; margin-bottom: 7px; margin-left: 7px; width: 200px"}
 
-I'm Himanshu and I'm a data scientist,  currently working on projects that are aimed to  reduce customer fraud, reduce churn, detect anomaly , and identify best customer to be onboarded. 
-
-I use machine learning to solve business problem and I enjoy playing around with data of all sorts. 
+I'm Himanshu and I use machine learning to solve business problem and I enjoy playing around with data of all sorts. 
 
 It's amazing to me what can be learned from analyzing, visualizing, making prediction with data!
 
-I am using R every day at work and the thematic scope there is of course analytics centric with a lot of experimentation of machine learning and statistics. 
+I am using Python every day at work and the thematic scope there is of course analytics centric with a lot of experimentation of machine learning and statistics. 
 
 I have very often benefited from other people's published work and and it has infused ideas for sharing some portion of my  work, thus these **blogs**. 
 
